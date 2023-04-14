@@ -9,7 +9,7 @@ public class Hangman {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-		Scanner allWords = new Scanner(new File("C:\\Users\\xcx1819\\words_alpha.txt"));
+		Scanner allWords = new Scanner(new File("C:\\Users\\words_alpha.txt"));
 		Scanner sc = new Scanner(System.in);
 
 		List<String> words = new ArrayList<>();
